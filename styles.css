@@ -92,6 +92,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 10px;
+  text-align: center;
 }
 .placeholder-box {
   width: 125px;
@@ -125,13 +127,45 @@ p {
 /* forth part */
 .block4 {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .call-to-action {
   display: flex;
   color: #e5e7eb;
   background-color: #3882f6;
-  max-width: 700px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 270px;
+  padding: 40px 60px;
+  border-radius: 10px;
+}
+#call-text {
+  font-weight: bold;
+  font-size: 22px;
+}
+#call-to-action-button {
+  width: 75px;
+  height: 30px;
+  color: #e5e7eb;
+  font-weight: bold;
+  border: 1;
+  border-style: solid;
+  border-color: #e5e7eb;
+  border-radius: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #3882f6;
+}
+
+/* footer */
+.footer {
+  background-color: rgb(47, 47, 47);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
